@@ -1,0 +1,20 @@
+.better-to-see {
+    padding-left: 76px;
+    padding-right: 45px;
+    padding-bottom: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/better-to-see.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.better-to-see__img {
+    width: 842px;
+    height: 649px;
+}
+
+.better-to-see__line {
+    position: relative;
+    left: -140px;
+}

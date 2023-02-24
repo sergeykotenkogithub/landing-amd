@@ -1,0 +1,43 @@
+@import './variables';
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 70px;
+	padding-left: 60px;
+
+	@media (max-width: $xl) {
+		padding-right: 50px;
+		padding-left: 40px;
+	}
+	@media (max-width: $lg) {
+		padding-right: 30px;
+		padding-left: 20px;
+	}
+	@media (max-width: $md) {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	.menu {
+		cursor: pointer;
+		transition: color 0.3s ease;
+		&:hover {
+			color: #61b1e8;
+		}
+	}
+
+	.logo {
+		width: 340px;
+		@media (max-width: $xl) {
+			width: 250px;
+		}
+		@media (max-width: $lg) {
+			width: 200px;
+		}
+		@media (max-width: $md) {
+			width: 160px;
+		}
+	}
+}

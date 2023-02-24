@@ -1,0 +1,105 @@
+/* Default Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap');
+@import './variables';
+@import './text-size';
+@import 'header';
+@import 'main';
+@import 'about';
+@import 'our-services';
+@import 'better-to-see';
+@import 'contacts';
+@import 'footer';
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Akshar', sans-serif;
+	font-weight: 400;
+	background: $background;
+}
+
+img {
+	width: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.title-content {
+	padding-left: 140px;
+	@media (max-width: $xl) {
+		padding-left: 40px;
+	}
+	@media (max-width: $lg) {
+	}
+	@media (max-width: $md) {
+	}
+	@media (max-width: $sm) {
+	}
+	@media (max-width: $xs) {
+	}
+}
+
+.text-content-wrapper {
+	width: 70%;
+	margin: 0 auto;
+	@media (max-width: $xs) {
+		margin-left: 40px;
+	}
+}
+
+.link {
+	text-decoration: none;
+	color: #000000;
+	transition: color 0.3s ease;
+	&:hover {
+		color: #61b1e8;
+	}
+}
+
+.line-title {
+	background: url('../img/line-title.svg');
+	width: 500px;
+	height: 15px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	@media (max-width: $xl) {
+		position: relative;
+		width: 400px;
+		left: -90px;
+	}
+
+	@media (max-width: $xl) {
+	}
+	@media (max-width: $lg) {
+	}
+	@media (max-width: $md) {
+	}
+	@media (max-width: $sm) {
+	}
+	@media (max-width: $xs) {
+	}
+}
+
+@media (max-width: $xl) {
+}
+
+@media (max-width: $xl) {
+}
+@media (max-width: $lg) {
+}
+@media (max-width: $md) {
+}
+@media (max-width: $sm) {
+}
+@media (max-width: $xs) {
+}
