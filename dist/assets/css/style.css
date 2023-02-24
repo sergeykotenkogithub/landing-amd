@@ -448,6 +448,7 @@
 .footer {
     text-align: center;
     padding: 35px 0 30px;
+    background: linear-gradient(90deg, #ffffff 24.93%, #f5f5f5 51.46%, #ffffff 78.4%);
 }
 
 *,
