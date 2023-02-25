@@ -28,30 +28,41 @@ img {
 	width: 100%;
 }
 
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
 
 .title-content {
 	padding-left: 140px;
-	@media (max-width: $xl) {
+	@media screen and (max-width: $xl) {
 		padding-left: 40px;
 	}
-	@media (max-width: $lg) {
+	@media screen and (max-width: $lg) {
 	}
-	@media (max-width: $md) {
+	@media screen and (max-width: $md) {
 	}
-	@media (max-width: $sm) {
+	@media screen and (max-width: $sm) {
 	}
-	@media (max-width: $xs) {
+	@media screen and (max-width: $xs) {
 	}
 }
 
 .text-content-wrapper {
 	width: 70%;
 	margin: 0 auto;
-	@media (max-width: $xs) {
+	@media screen and (max-width: $xs) {
 		margin-left: 40px;
+	}
+	ul {
+		@media screen and (max-width: $xs) {
+			padding-left: 20px;
+		}
 	}
 }
 
@@ -72,34 +83,39 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 
-	@media (max-width: $xl) {
+	@media screen and (max-width: $xxl) {
 		position: relative;
+		width: 470px;
+	}
+
+	@media screen and (max-width: $xl) {
 		width: 400px;
 		left: -90px;
 	}
 
-	@media (max-width: $xl) {
+	@media screen and (max-width: $lg) {
+		width: 350px;
 	}
-	@media (max-width: $lg) {
+	@media screen and (max-width: $md) {
+		width: 320px;
 	}
-	@media (max-width: $md) {
+	@media screen and (max-width: $sm) {
+		width: 300px;
 	}
-	@media (max-width: $sm) {
-	}
-	@media (max-width: $xs) {
+	@media screen and (max-width: $xs) {
 	}
 }
 
-@media (max-width: $xl) {
+@media screen and (max-width: $xl) {
 }
 
-@media (max-width: $xl) {
+@media screen and (max-width: $xl) {
 }
-@media (max-width: $lg) {
+@media screen and (max-width: $lg) {
 }
-@media (max-width: $md) {
+@media screen and (max-width: $md) {
 }
-@media (max-width: $sm) {
+@media screen and (max-width: $sm) {
 }
-@media (max-width: $xs) {
+@media screen and (max-width: $xs) {
 }

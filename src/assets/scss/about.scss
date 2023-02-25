@@ -7,31 +7,36 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 
-	@media (max-width: $xxxl) {
+	@media screen and (max-width: $xxxl) {
 		margin-bottom: 160px;
 	}
-	@media (max-width: $xl) {
+	@media screen and (max-width: $xl) {
 		height: 500px;
 		margin-bottom: 10px;
+	}
+	@media screen and (max-width: $sm) {
+		padding-bottom: 15px;
+		height: 300px;
 	}
 
 	&__title {
 		padding-bottom: 80px;
 		padding-top: 30px;
 
-		@media (max-width: $xl) {
+		@media screen and (max-width: $xl) {
 			padding-bottom: 50px;
 		}
-		@media (max-width: $lg) {
+		@media screen and (max-width: $lg) {
 			padding-bottom: 30px;
 		}
-		@media (max-width: $md) {
+		@media screen and (max-width: $md) {
 			padding-bottom: 20px;
 		}
-		@media (max-width: $sm) {
+		@media screen and (max-width: $sm) {
 			padding-bottom: 15px;
+			// height: 300px;
 		}
-		@media (max-width: $xs) {
+		@media screen and (max-width: $xs) {
 			padding-bottom: 12px;
 		}
 	}

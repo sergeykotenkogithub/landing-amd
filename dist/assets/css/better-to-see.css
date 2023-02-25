@@ -1,6 +1,5 @@
 .better-to-see {
     padding-left: 76px;
-    padding-right: 45px;
     padding-bottom: 600px;
     display: flex;
     justify-content: space-between;
@@ -9,9 +8,112 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1200px) {
+    .better-to-see {
+        padding-bottom: 500px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .better-to-see {
+        display: block;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .better-to-see {
+        padding-bottom: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .better-to-see {
+        background-position: 0 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .better-to-see {
+        background-position: 0px 25px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .better-to-see {
+        padding-bottom: 140px;
+        background-position: 0px 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .better-to-see__title-wrapper {
+        width: 335px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .better-to-see__title-wrapper {
+        padding-left: 76px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .better-to-see__title-wrapper {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .better-to-see__title {
+        padding-left: 40px;
+    }
+}
+
 .better-to-see__img {
     width: 842px;
     height: 649px;
+}
+
+@media screen and (max-width: 1470px) {
+    .better-to-see__img {
+        width: 700px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .better-to-see__img {
+        width: 585px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .better-to-see__img {
+        margin: 75px auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .better-to-see__img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .better-to-see__img {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .better-to-see__img {
+        height: 200px;
+    }
 }
 
 .better-to-see__line {

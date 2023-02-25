@@ -7,19 +7,19 @@
 	height: 754px;
 	position: relative;
 
-	@media (max-width: $xl) {
+	@media screen and (max-width: $xl) {
 		height: 590px;
 	}
-	@media (max-width: $lg) {
+	@media screen and (max-width: $lg) {
 		height: 500px;
 	}
-	@media (max-width: $md) {
+	@media screen and (max-width: $md) {
 		height: 400px;
 	}
-	@media (max-width: $sm) {
+	@media screen and (max-width: $sm) {
 		height: 300px;
 	}
-	@media (max-width: $xs) {
+	@media screen and (max-width: $xs) {
 		height: 300px;
 	}
 
@@ -59,17 +59,17 @@
 		background-repeat: no-repeat;
 		height: 1000px;
 		width: 50px;
-		@media (max-width: $xl) {
+		@media screen and (max-width: $xl) {
 			height: 650px;
 			background-size: contain;
 		}
-		@media (max-width: $lg) {
+		@media screen and (max-width: $lg) {
 			height: 550px;
 		}
-		@media (max-width: $md) {
+		@media screen and (max-width: $md) {
 			height: 450px;
 		}
-		@media (max-width: $md) {
+		@media screen and (max-width: $md) {
 			height: 350px;
 		}
 	}
