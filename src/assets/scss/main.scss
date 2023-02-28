@@ -48,10 +48,13 @@
 		width: 100%;
 		text-align: center;
 		left: -30px;
+		@media screen and (max-width: $sm) {
+			left: 0;
+		}
 	}
 
 	&__line {
-		top: 0;
+		top: -40px;
 		right: 50%;
 		position: absolute;
 		background: url('../img/line-main.svg');
@@ -62,6 +65,7 @@
 		@media screen and (max-width: $xl) {
 			height: 650px;
 			background-size: contain;
+			top: -20px;
 		}
 		@media screen and (max-width: $lg) {
 			height: 550px;
@@ -71,6 +75,12 @@
 		}
 		@media screen and (max-width: $md) {
 			height: 350px;
+			top: 80px;
+		}
+		@media screen and (max-width: $sm) {
+			height: 300px;
+			top: 25px;
+			right: calc(50% - 27px);
 		}
 	}
 }

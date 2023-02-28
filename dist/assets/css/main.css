@@ -63,8 +63,14 @@
     left: -30px;
 }
 
+@media screen and (max-width: 482px) {
+    .main__more {
+        left: 0;
+    }
+}
+
 .main__line {
-    top: 0;
+    top: -40px;
     right: 50%;
     position: absolute;
     background: url("../img/line-main.svg");
@@ -78,6 +84,7 @@
     .main__line {
         height: 650px;
         background-size: contain;
+        top: -20px;
     }
 }
 
@@ -96,5 +103,14 @@
 @media screen and (max-width: 576px) {
     .main__line {
         height: 350px;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .main__line {
+        height: 300px;
+        top: 25px;
+        right: calc(50% - 27px);
     }
 }
